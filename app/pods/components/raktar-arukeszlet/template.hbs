@@ -1,0 +1,21 @@
+<table class="table table-striped table-hover ">
+    <thead>
+        <tr>
+            <th>{{raktar.nev}}</th>
+            <th>Location</th>
+            <th>Description</th>
+            <th>Gombok</th>
+        </tr>   
+    </thead>
+    <tbody>
+{{#each raktar.aruk}}
+        <tr>
+            <td>-</td>
+            <td>Hely: {{location}}</td>
+            <td>Leírás: {{description}}</td>
+            <button {{action "deleteAru" this}} class="btn btn-default">Töröl</button>
+        </tr>
+{{/each}}
+        
+    </tbody>
+</table>

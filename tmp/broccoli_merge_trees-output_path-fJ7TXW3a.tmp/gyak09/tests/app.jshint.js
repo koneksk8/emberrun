@@ -1,0 +1,1 @@
+/home/ubuntu/workspace/tmp/jshinter-output_path-WAEI2230.tmp/app.jshint.js

@@ -1,0 +1,22 @@
+<table class="table table-striped table-hover ">
+    <thead>
+        <tr>
+            <th>Név</th>
+            <th>Gombok</th>
+        </tr>   
+    </thead>
+    <tbody>
+
+        {{#each raktarak}}
+        <tr>
+            {{!--{{log this}}--}}
+            <td>{{nev}}</td>
+            <td>
+                {{link-to "Megtekint" "raktarak.view" this class="btn btn-default btn-sm"}}
+               {{link-to "Szerkeszt" "raktarak.edit" this class="btn btn-default btn-sm"}}
+                <button {{action "deleteRaktar" this}} class="btn btn-default btn-sm">Töröl</button>
+            </td>
+        </tr>
+        {{/each}}
+    </tbody>
+</table>

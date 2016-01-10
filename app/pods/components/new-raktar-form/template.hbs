@@ -1,0 +1,17 @@
+<form class="form-horizontal" method="post">
+    <fieldset>
+         <div class="form-group {{if errors.nev "has-error"}}">
+            <label for="nev" class="col-lg-2 control-label">Név</label>
+            <div class="col-lg-10">
+                <input class="form-control" id="nev" name="nev" placeholder=" - add meg a raktár nevet! -" type="text" value="{{data.nev}}">
+                <span class="help-block">{{errors.nev}}</span>
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-lg-10 col-lg-offset-2">
+                <button type="reset" class="btn btn-default">Törlés</button>
+                <button {{action "submit"}} class="btn btn-primary">Küldés</button>
+            </div>
+        </div>
+    </fieldset>
+</form>        
