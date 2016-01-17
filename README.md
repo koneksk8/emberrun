@@ -21,8 +21,11 @@ You will need the following things properly installed on your computer.
 * `bower install`
 
 ## Running / Development
-
+* `install emberapi and emberrun into different nodejs projects to c9.io`
+* `run api`
 * `ember server`
+* `open app in the given localhost link you see in console`
+* 
 * Visit your app at [http://localhost:4200](http://localhost:4200).
 
 ### Code Generators
@@ -51,3 +54,152 @@ Specify what it takes to deploy your app.
   * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
   * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
 
+
+##functional requirements were:
+ 
+ -at least two model in 1->n relation
++
+ -at least one page for user to fill
++
+ -opportunity for user to create object
++
+ -edit object
++
+ -delete object
++
+ -page available only after authentication
++
+ -data persisting to file
+ 
+ 
++
+ ##non functional:
+ -scalable
+ 
+@@ -50,54 +57,89 @@ the program is made for a course,
+ ##details
+ Upon entering the website the user find himself on the index page, he is able to go to the warehouse list.
+ On warehouse list they can add new warehouse,edit and delete existing one and view the goods list of each warehouse.
+ On goods list they can add new goods and remove it.
++
+ -they can add entitys to the warehouse, they can give it names.
++
+ -they can edit existing items, and delete them.
++
+ 
++
+ ##hardware stats for developing:
++
+ default pc requirements for using c9.io
+ 
+ ##softwares used for developing:
++
+ c9.io
++
+ windows 7 
+ 
+ ##minimal software requirements for running the app:
++
+ -pentium 4
++
+ -1 GB ram
++
+ -gfx card capable of 1024*768 resolution
+ 
++
+ ##additional requirements:
+-interactive user interface,easy handling
++-interactive user interface
++
++-easy to handle
+ 
+ ##usecase diagram:
+ ![clickable](http://www.kephost.com/image/SXd2)
+ 
+  ##database plan:
+ ![clickable](http://www.kephost.com/image/SXd2)
+ 
+ ##softwares to run:
+ -any OS
++
+ -nodeJS
++
+ -install packages
+-  -npm install <package name>  command
++
++-npm install <package name>  command
++
+ 
+ packages used:
++
+ -bcryptjs 2.3.0
++
+ -body-parser 1.14.1
++
+ -chai 3.3.0
++
+ -connect-flash 0.1.1
++
+ -express 4.13.3
++
+ -express-session 1.11.3
++
+ -express-validator 2.17.1
++
+ -hbs 3.1.1
++
+ -passport 0.3.0
++
+ -passport-local 1.0.0
++
+ -sails-disk 0.10.8
++
+ -sails-memory 0.10.5
++
+ -mocha 2.3.3
++
+ -zombie 4.1.0
++
+ -waterline 0.10.26
+ 
++
+ ##TEST:
+-*test.js
+-*models/user.test.js
++
++-test.js
++
++-models/user.test.js
+ 
+ ##ui sketch:
+ 
+@@ -107,23 +149,23 @@ packages used:
+ ![clickable](readme/flowchart.png)
+ 
+ ##endpoints:
+-*GET /: index page
++-GET /: index page
+ 
+-*GET /login: login page
++-GET /login: login page
+ 
+-*POST /login: send login fields
++-POST /login: send login fields
+ 
+-*GET /errors/list: itemlist
++-GET /errors/list: itemlist
+ 
+-*GET /errors/new: add new item
++-GET /errors/new: add new item
+ 
+-*POST /errors/new: send new item data
++-POST /errors/new: send new item data
+ 
+-*GET /errors/:id: hiba adatai
++-GET /errors/:id: hiba adatai
+ 
+-*GET /errors/edit/:id go edit item page
++-GET /errors/edit/:id go edit item page
+ 
+-*POST /errors/edit/:id send edited item details
++-POST /errors/edit/:id send edited item details
