@@ -179,23 +179,13 @@ Specify what it takes to deploy your app.
  ##endpoints:
 +-GET /raktarak/list: warehouse list
  
--*POST /login: send login fields
-+-POST /login: send login fields
+-*GET /raktarak/new: add new warehouse
  
--*GET /errors/list: itemlist
-+-GET /errors/list: itemlist
+-*GET /raktarak/view/id: view of goods in warehouse
+
++-GET /raktarak/new-aru: add new goods to warehouse
  
--*GET /errors/new: add new item
-+-GET /errors/new: add new item
  
--*POST /errors/new: send new item data
-+-POST /errors/new: send new item data
+-*GET /raktarak/edit/id go edit warehouse page
+
  
--*GET /errors/:id: hiba adatai
-+-GET /errors/:id: hiba adatai
- 
--*GET /errors/edit/:id go edit item page
-+-GET /errors/edit/:id go edit item page
- 
--*POST /errors/edit/:id send edited item details
-+-POST /errors/edit/:id send edited item details
