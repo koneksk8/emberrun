@@ -177,11 +177,7 @@ Specify what it takes to deploy your app.
  ![clickable](readme/flowchart.png)
  
  ##endpoints:
--*GET /: index page
-+-GET /: index page
- 
--*GET /login: login page
-+-GET /login: login page
++-GET /raktarak/list: warehouse list
  
 -*POST /login: send login fields
 +-POST /login: send login fields
