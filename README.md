@@ -72,13 +72,12 @@ Specify what it takes to deploy your app.
  -data persisting to file
  
  
-+
  ##non functional:
  -scalable
- 
-@@ -50,54 +57,89 @@ the program is made for a course,
+  
  ##details
- Upon entering the website the user find himself on the index page, he is able to go to the warehouse list.
+ 
+ The program is made for a course,Upon entering the website the user find himself on the index page, he is able to go to the warehouse list.
  On warehouse list they can add new warehouse,edit and delete existing one and view the goods list of each warehouse.
  On goods list they can add new goods and remove it.
 +
