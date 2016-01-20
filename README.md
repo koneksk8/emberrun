@@ -117,11 +117,11 @@ Specify what it takes to deploy your app.
  
  ![clickable](https://github.com/koneksk8/emberrun/blob/master/public/esetdiagram2.png)
  
-  ##database plan:
+  ### database plan:
   
  ![clickable](https://github.com/koneksk8/emberrun/blob/master/public/structure2.png)
  
- ##softwares to run:
+ ###softwares to run:
  -any OS
 +
  -nodeJS
@@ -134,38 +134,54 @@ Specify what it takes to deploy your app.
  
  packages used:
 +
+
  -bcryptjs 2.3.0
 +
+
  -body-parser 1.14.1
 +
+
  -chai 3.3.0
 +
+
  -connect-flash 0.1.1
 +
+
  -express 4.13.3
 +
+
  -express-session 1.11.3
 +
+
  -express-validator 2.17.1
 +
+
  -hbs 3.1.1
 +
+
  -passport 0.3.0
 +
+
  -passport-local 1.0.0
 +
+
  -sails-disk 0.10.8
 +
+
  -sails-memory 0.10.5
 +
+
  -mocha 2.3.3
 +
+
  -zombie 4.1.0
 +
+
  -waterline 0.10.26
  
 +
  ##TEST:
+ 
 -*test.js
 -*models/user.test.js
 +
