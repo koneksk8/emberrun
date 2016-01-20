@@ -1,0 +1,1 @@
+/home/ubuntu/workspace/tmp/jshinter-output_path-kvb3rGL3.tmp/integration/pods/components/new-error-form/component-test.jshint.js

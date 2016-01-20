@@ -1,0 +1,1 @@
+/home/ubuntu/workspace/tmp/jshinter-output_path-kvb3rGL3.tmp/unit/pods/errors/list/controller-test.jshint.js
