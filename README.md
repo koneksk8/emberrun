@@ -114,9 +114,11 @@ Specify what it takes to deploy your app.
 +-easy to handle
  
  ##usecase diagram:
+ 
  ![clickable](https://github.com/koneksk8/emberrun/blob/master/public/esetdiagram2.png)
  
   ##database plan:
+  
  ![clickable](https://github.com/koneksk8/emberrun/blob/master/public/structure2.png)
  
  ##softwares to run:
