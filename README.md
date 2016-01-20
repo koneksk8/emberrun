@@ -117,7 +117,7 @@ Specify what it takes to deploy your app.
  ![clickable](https://github.com/koneksk8/emberrun/blob/master/public/esetdiagram2.png)
  
   ##database plan:
- ![clickable](http://www.kephost.com/image/SXd2)
+ ![clickable](https://github.com/koneksk8/emberrun/blob/master/public/structure2.png)
  
  ##softwares to run:
  -any OS
